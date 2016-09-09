@@ -5,7 +5,7 @@
 # stub: standalone_migrations 5.0.0 ruby lib
 
 Gem::Specification.new do |s|
-  s.name = "standalone_migrations"
+  s.name = "staq_standalone_migrations"
   s.version = "5.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
