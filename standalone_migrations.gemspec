@@ -55,7 +55,7 @@ Gem::Specification.new do |s|
   s.rubygems_version = "2.4.8"
   s.summary = "A thin wrapper to use Rails Migrations in non Rails projects"
 
-  s.add_dependency(%q<rake>, ["~> 10.0"])
+  s.add_dependency(%q<rake>, ">= 10", "< 14")
   s.add_dependency(%q<activerecord>, ["~> 4.1"])
   s.add_dependency(%q<railties>, ["~> 4.1"])
 end
